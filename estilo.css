@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: 24 24 24;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgba(216, 54, 54, 0.877);
+}
+
+a{
+    text-decoration: none;
+}
+
+ 
+h1:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display:block;
+    background-color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    
+    background-color: yellowgreen;
+}
+
+section.module{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.img1{
+    background-image: url(kl-pg.jpeg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.img2{
+    background-image: url(pg.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(kawhi.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto1{
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(216, 54, 54, 0.877);
+    transform: translate(0%);
+    font-size: 19px;
+    padding: 20px;
+    font-family: sans-serif;
+
+}
+
+.texto1:hover{
+    background-color: antiquewhite;
+}
+
+.texto2{
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(216, 54, 54, 0.877);
+    transform: translate(0%);
+    font-size: 19px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.texto2:hover{
+    background-color: antiquewhite;
+}
+
+.texto3{
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(216, 54, 54, 0.877);
+    transform: translate(0%);
+    font-size: 19px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.texto3:hover{
+    background-color: antiquewhite;
+}
+
+footer{
+    display:block;
+    position: fixed;
+    bottom: 0vh;
+    left: 0%;
+    width: 100%;
+    background-color:#a3c9a7;
+    text-align: center;
+}
